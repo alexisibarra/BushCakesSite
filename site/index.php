@@ -78,36 +78,13 @@
 				<div class="row">
 					<div class="col-md-8" style="padding-right: 5px">
 						<div class="owl-carousel owl-carousel-fullwidth animate-box">
-							<div class="item">
-								<a href="images/img_large_1.jpg" class="image-popup">
-									<img src="images/img_large_1.jpg" alt="image">
-								</a>
-							</div>
-							<div class="item">
-								<a href="images/img_large_1.jpg" class="image-popup">
-									<img src="images/img_large_2.jpg" alt="image">
-								</a>
-							</div>
-							<div class="item">
-								<a href="images/img_large_1.jpg" class="image-popup">
-									<img src="images/img_large_3.jpg" alt="image">
-								</a>
-							</div>
-							<div class="item">
-								<a href="images/img_large_1.jpg" class="image-popup">
-									<img src="images/img_large_4.jpg" alt="image">
-								</a>
-							</div>
-							<div class="item">
-								<a href="images/img_large_1.jpg" class="image-popup">
-									<img src="images/img_large_5.jpg" alt="image">
-								</a>
-							</div>
-							<div class="item">
-								<a href="images/img_large_1.jpg" class="image-popup">
-									<img src="images/img_large_6.jpg" alt="image">
-								</a>
-							</div>
+							<? for ($i = 1; $i <= 10; $i++){?>
+								<div class="item">
+									<a href="http://placehold.it/630x480" class="image-popup">
+										<img src="http://placehold.it/630x480" alt="image">
+									</a>
+								</div>
+							<? } ?>
 						</div>
 					</div>
 					<div class="col-md-4" style="padding-left: 0px; margin-bottom: 5px">
