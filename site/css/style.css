@@ -1034,7 +1034,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
 
 .fh5co-cards {
   background: whitesmoke;
-  padding: 7em 0;
+  padding: 3em 0;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cards {
@@ -1068,7 +1068,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   z-index: -1;
 }
 .fh5co-cards .fh5co-card .fh5co-card-body {
-  padding: 30px;
+  padding: 15px 30px;
 }
 .fh5co-cards .fh5co-card .fh5co-card-body h3 {
   font-size: 20px;
@@ -1076,6 +1076,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   margin-bottom: 10px;
 }
 .fh5co-cards .fh5co-card .fh5co-card-body p {
+  line-height: 1.4;
   color: #8b969c;
 }
 .fh5co-cards .fh5co-card .fh5co-card-body p:last-child {
@@ -1084,7 +1085,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
 .fh5co-cards .fh5co-card:hover {
   text-decoration: none;
   border-bottom: none;
-  bottom: 10px;
+  bottom: 5px;
 }
 .fh5co-cards .fh5co-card:hover h3 {
   -webkit-transition: all 0.5s ease;
