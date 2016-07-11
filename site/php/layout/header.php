@@ -5,7 +5,7 @@
             <!-- START #fh5co-logo -->
             <h1 id="fh5co-logo" class="pull-left">
                 <a href="index.php">
-                    <img src="http://placehold.it/120x120" alt="Valet Free HTML5 Template" class="img-circle">
+                    <img src="./images/logo.png" alt="Valet Free HTML5 Template" class="img-circle">
                 </a>
             </h1>
 
