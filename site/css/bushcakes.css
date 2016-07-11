@@ -1,3 +1,87 @@
 .main-color-background{
     background-color: #57cecd;
 }
+
+.fh5co-cards {
+    background: whitesmoke;
+}
+@media screen and (max-width: 768px) {
+    .fh5co-cards {
+        padding: 3em 0;
+    }
+}
+.fh5co-cards .fh5co-card-small {
+    position:relative;
+    bottom: 0;
+    display: block;
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.fh5co-cards .fh5co-card-small .card-body {
+    margin: 10px 0;
+}
+.fh5co-cards .fh5co-card-small .card-body .news-title{
+    font-size: 17px;
+    color: #8b969c;
+    line-height: 1.4;
+    margin: 0 0 10px 0;
+}
+.fh5co-cards .fh5co-card-small .card-body .news-body{
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0 0 10px 0;
+}
+.fh5co-cards .fh5co-card a,
+.fh5co-cards .fh5co-card-small .card-body a{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+
+    font-size: 14px;
+    color: #7b7b7b;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.fh5co-cards .fh5co-card a:hover,
+.fh5co-cards .fh5co-card-small .card-body a:hover{
+    border: none;
+    color: #FFF;
+    background-color: #57cecd;
+}
+
+.fh5co-cards .fh5co-card-small:hover {
+    bottom: 5px;
+}
+
+.fh5co-cards .fh5co-card-small:hover .news-title {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    color: #57cecd;
+}
+
+.resp-tab-content {
+    padding-top: 0px;
+}
+.where-title{
+    margin-bottom: 10px;
+}
