@@ -1,60 +1,58 @@
-<!-- START #fh5co-header -->
-<header id="fh5co-header-section" role="header" class="navbar navbar-default navbar-fixed-top main-color-background" >
-    <div class="container">
-        <div id="fh5co-menu-logo">
-            <!-- START #fh5co-logo -->
-            <h1 id="fh5co-logo" class="pull-left">
-                <a href="index.php">
-                    <img src="./assets/img/logo.png" alt="Valet Free HTML5 Template" class="img-circle">
-                </a>
-            </h1>
+<header id="fh5co-header-section" role="header" class="" >
 
-            <!-- START #fh5co-menu-wrap -->
-            <nav id="fh5co-menu-wrap" role="navigation">
-                <ul class="sf-menu" id="fh5co-primary-menu">
-                    <li>
-                        <a href="#">Tienda Online</a>
-                    </li>
-                    <li>
-                        <a href="#">Productos</a>
-                    </li>
-                    <li>
-                        <a href="#">Pasteleria Creativa</a>
-                    </li>
-                    <li>
-                        <a href="#">Talleres</a>
-                    </li>
-                    <li>
-                        <a href="#">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="./contact.php">Contacto</a>
-                    </li>
-<!---->
-<!--                    <li>-->
-<!--                        <a href="#" class="fh5co-sub-ddown">Dropdown</a>-->
-<!--                        <ul class="fh5co-sub-menu">-->
-<!--                            <li><a href="../site/left-sidebar.html">Left Sidebar</a></li>-->
-<!--                            <li><a href="../site/right-sidebar.html">Right Sidebar</a></li>-->
-<!--                            <li>-->
-<!--                                <a href="#" class="fh5co-sub-ddown">Free HTML5</a>-->
-<!--                                <ul class="fh5co-sub-menu">-->
-<!--                                    <li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>-->
-<!--                                    <li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>-->
-<!--                                    <li><a href="http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap" target="_blank">Light</a></li>-->
-<!--                                    <li><a href="http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap" target="_blank">Relic</a></li>-->
-<!--                                    <li><a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>-->
-<!--                                    <li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                            <li><a href="#">CSS3</a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
-<!--                    <li><a href="../site/elements.html">Elements</a></li>-->
-<!--                    <li><a href="../site/contact.html">Contact</a></li>-->
-                </ul>
-            </nav>
+
+    <div id="fh5co-hero">
+        <a href="#fh5co-menuwrap" class="smoothscroll fh5co-arrow to-animate hero-animate-4"><i class="ti-angle-down"></i></a>
+        <div class="container">
+            <div class="col-md-12">
+                <div class="fh5co-hero-wrap">
+                    <div class="fh5co-hero-intro">
+                        <img class="to-animate hero-animate-1" src="./assets/img/logo250x250.png" alt="Valet Free HTML5 Template">
+                        <h1 class="to-animate hero-animate-1">Pastelería, café y té para alegrar emociones</h1>
+<!--                        <h2 class="to-animate hero-animate-2">Created by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a></h2>-->
+
+                        <ul class="to-animate hero-animate-2 fh5co-social-icons" style="padding-bottom: 25px;">
+
+                            <li><a href="#"><i class="ti-google"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-instagram"></i></a></li>
+                            <li><a href="#"><i class="ti-dribbble"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
+    <div class="clearfix"></div>
+
+
 </header>
+
+<div id="fh5co-menuwrap" role="navigation" class="sticker text-center visible-sm visible-md visible-lg">
+    <div class="container">
+        <img class="push-left" src="./assets/img/logo195x30.png" alt="" style="padding-top: 8px">
+    <ul class="pull-right sf-menu" id="fh5co-primary-menu">
+        <li>
+            <a href="#">Tienda Online</a>
+        </li>
+        <li>
+            <a href="#">Productos</a>
+        </li>
+        <li>
+            <a href="#">Pasteleria Creativa</a>
+        </li>
+        <li>
+            <a href="#">Talleres</a>
+        </li>
+        <li>
+            <a href="#">Nosotros</a>
+        </li>
+        <li>
+            <a href="./contact.php">Contacto</a>
+        </li>
+    </ul>
+    </div>
+
+</div>
