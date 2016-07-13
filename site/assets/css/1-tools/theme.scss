@@ -157,9 +157,9 @@ textarea {
 }
 /* Header */
 #fh5co-header-section {
-  position: absolute;
-  top: 0;
-  width: 100%;
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*width: 100%;*/
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
@@ -224,9 +224,9 @@ textarea {
   margin: 0 !important;
 }
 
-.sf-menu {
-  float: right;
-}
+/*.sf-menu {*/
+  /*float: right;*/
+/*}*/
 
 .sf-menu ul {
   box-shadow: none;
@@ -545,7 +545,7 @@ textarea {
   top: 0;
   width: 275px;
   z-index: 10002;
-  background: #181920;
+  background: $bushcake-dark;
   padding: 0.75em 1.25em;
 }
 #fh5co-mobile-menu #fh5co-mobile-menu-ul {
@@ -609,7 +609,7 @@ textarea {
   top: 0;
   width: 100%;
   z-index: 10001;
-  background: #2b303b;
+  background: $bushcake-light;
   color: #ccc;
   -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
@@ -692,7 +692,7 @@ textarea {
 }
 
 #fh5co-hero {
-  background-color: #57cecd;
+  /*background-color: #57cecd;*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
@@ -711,7 +711,7 @@ textarea {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background: #57cecd;
+  /*background: #57cecd;*/
   opacity: .97;
 }
 @media screen and (max-width: 768px) {
@@ -753,9 +753,9 @@ textarea {
   outline: none;
 }
 #fh5co-hero .fh5co-hero-wrap {
-  padding-top: 15em;
+  /*padding-top: 15em;*/
   display: table;
-  height: 650px;
+  /*height: 650px;*/
   width: 100%;
 }
 @media screen and (max-width: 768px) {
