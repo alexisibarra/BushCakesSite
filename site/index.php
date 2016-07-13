@@ -55,7 +55,7 @@
 	</head>
 	<body>
 	<?
-		require __DIR__ . '/php/home/home.php';
+		require './php/home/home.php';
 	?>
 
 		<!-- jQuery -->
