@@ -1,4 +1,4 @@
-<div class="fluid-container main-color-background" style="background-color: #57cecd; padding: 2em 0em">
+<div class="contact-ribbon fluid-container" >
     <div class="container">
         <form class="">
             <div class="row">
@@ -7,9 +7,9 @@
                 </div>
                 <div class="col-md-6">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Suscribete para obtener informacion de eventos y noticias">
+                        <input type="text" class="form-control" placeholder="">
                         <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">Go!</button>
+                            <button class="btn btn-default" type="button" style="margin: 0">Enviar</button>
                         </span>
                     </div>
                 </div>

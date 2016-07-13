@@ -40,8 +40,8 @@
   	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   	<link rel="shortcut icon" href="favicon.ico">
 
-<!--  	<!-- Google Webfont -->-->
-<!--	<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'> -->-->
+  	<!-- Google Webfont -->
+	<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'> -->
 
 	<link rel="stylesheet" href="assets/css/main.css">
 

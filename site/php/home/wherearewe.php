@@ -1,10 +1,6 @@
-<!-- Responsive Tabs -->
 <div class="container">
     <div class="row">
         <div class="col-md-12 animate-box">
-<!--            <h2 class="fh5co-uppercase-heading-sm text-center">-->
-<!--                Donde estamos-->
-<!--            </h2>-->
 
             <div class="fh5co-spacer fh5co-spacer-sm"></div>
 
@@ -29,8 +25,8 @@
                                 <div class="row animate-box">
                                     <? for ($i = 1; $i <= 3; $i++){?>
                                         <div class="col-md-4">
-                                            <a href="http://placehold.it/630x480" class="image-popup">
-                                                <img src="http://placehold.it/160x120" class="img-responsive" alt="image">
+                                            <a href="http://lorempixel.com/630/480" class="image-popup">
+                                                <img src="http://lorempixel.com/160/120" class="img-responsive" alt="image">
                                             </a>
                                         </div>
                                     <? } ?>
@@ -54,8 +50,8 @@
 
                                     <? for ($j = 1; $j <= 3; $j++){?>
                                         <div class="col-md-4">
-                                            <a href="http://placehold.it/630x480" class="image-popup">
-                                                <img src="http://placehold.it/160x120" class="img-responsive" alt="image">
+                                            <a href="http://lorempixel.com/630/480" class="image-popup">
+                                                <img src="http://lorempixel.com/160/120" class="img-responsive" alt="image">
                                             </a>
                                         </div>
                                     <? } ?>
@@ -74,12 +70,12 @@
 
                                     <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
                                     <span>(02) 265-9983 / 098-799-3106</span>
-                                <div class="row animate-b                               </div>    ox">
+                                <div class="row animate-box">
 
                                     <? for ($k = 1; $k <= 3; $k++){?>
                                         <div class="col-md-4">
-                                            <a href="http://placehold.it/630x480" class="image-popup">
-                                                <img src="http://placehold.it/160x120" class="img-responsive" alt="image">
+                                            <a href="http://lorempixel.com/630/480" class="image-popup">
+                                                <img src="http://lorempixel.com/160/120" class="img-responsive" alt="image">
                                             </a>
                                         </div>
                                     <? } ?>

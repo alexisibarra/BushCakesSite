@@ -390,6 +390,22 @@
 
 	};
 
+	var sticky = function() {
+		var s = $("#fh5co-menuwrap");
+		var pos = s.position();
+		$(window).scroll(function() {
+			var windowpos = $(window).scrollTop();
+			// s.html("Distance from top:" + pos.top + "<br />Scroll position: " + windowpos);
+			if (windowpos >= pos.top) {
+				s.addClass("stick");
+				$("#fh5co-main").addClass("margin-top-30");
+			} else {
+				s.removeClass("stick");
+				$("#fh5co-main").removeClass("margin-top-30");
+			}
+		});
+	};
+
 	
 
 
@@ -416,6 +432,7 @@
 		worksWayPoint();
 		footerWayPoint();
 		contentWayPoint();
+		sticky();
 
 
 	});

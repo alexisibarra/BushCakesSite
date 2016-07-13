@@ -36,11 +36,11 @@
                     <li><a href="#"><i class="ti-dribbble"></i></a></li>
                 </ul>
             </div>
-            <div class="col-md-12 footer-box text-center">
-                <div class="fh5co-copyright">
-                    <p>&copy; 2015 Free Valet. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a> Images by: <a href="http://unsplash.com" target="_blank">Unsplash</a></p>
-                </div>
-            </div>
+<!--            <div class="col-md-12 footer-box text-center">-->
+<!--                <div class="fh5co-copyright">-->
+<!--                    <p>&copy; 2015 Free Valet. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a> Images by: <a href="http://unsplash.com" target="_blank">Unsplash</a></p>-->
+<!--                </div>-->
+<!--            </div>-->
 
         </div>
         <!-- END row -->
