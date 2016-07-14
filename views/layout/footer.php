@@ -4,29 +4,42 @@
     <a href="#" class="fh5co-arrow fh5co-gotop footer-box"><i class="ti-angle-up"></i></a>
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-6 footer-box">
-                <h3 class="fh5co-footer-heading">Company</h3>
+            <div class="col-md-push-2 col-md-4 col-sm-6 footer-box">
+                <h3 class="fh5co-footer-heading">Bush cakes</h3>
                 <ul class="fh5co-footer-links">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Our Products</a></li>
-                    <li><a href="#">Our Culture</a></li>
-                    <li><a href="#">Team</a></li>
+                    <li>
+                        <a href="/tienda">Tienda Online</a>
+                    </li>
+                    <li>
+                        <a href="/productos">Productos</a>
+                    </li>
+                    <li>
+                        <a href="/creativa">Pasteleria Creativa</a>
+                    </li>
+                    <li>
+                        <a href="/talleres">Talleres</a>
+                    </li>
+                    <li>
+                        <a href="/nosotros">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="/contacto">Contacto</a>
+                    </li>
                 </ul>
 
             </div>
-            <div class="col-md-4 col-sm-6 footer-box">
-                <h3 class="fh5co-footer-heading">More Links</h3>
-                <ul class="fh5co-footer-links">
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Our Careers</a></li>
-                    <li><a href="#">Support &amp; FAQ's</a></li>
-                    <li><a href="#">Sign up</a></li>
-                    <li><a href="#">Log in</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4 col-sm-12 footer-box">
-                <h3 class="fh5co-footer-heading">Get in touch</h3>
+<!--            <div class="col-md-4 col-sm-6 footer-box">-->
+<!--                <h3 class="fh5co-footer-heading">More Links</h3>-->
+<!--                <ul class="fh5co-footer-links">-->
+<!--                    <li><a href="#">Terms &amp; Conditions</a></li>-->
+<!--                    <li><a href="#">Our Careers</a></li>-->
+<!--                    <li><a href="#">Support &amp; FAQ's</a></li>-->
+<!--                    <li><a href="#">Sign up</a></li>-->
+<!--                    <li><a href="#">Log in</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+            <div class="col-md-push-2 col-md-4 col-sm-12 footer-box">
+                <h3 class="fh5co-footer-heading">Contactanos</h3>
                 <ul class="fh5co-social-icons">
 
                     <li><a href="#"><i class="ti-google"></i></a></li>
@@ -36,11 +49,12 @@
                     <li><a href="#"><i class="ti-dribbble"></i></a></li>
                 </ul>
             </div>
-<!--            <div class="col-md-12 footer-box text-center">-->
-<!--                <div class="fh5co-copyright">-->
-<!--                    <p>&copy; 2015 Free Valet. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a> Images by: <a href="http://unsplash.com" target="_blank">Unsplash</a></p>-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class="col-md-12 footer-box text-center">
+                <div class="fh5co-copyright">
+                    <p>&copy; 2016 Bush Cakes</p>
+<!--                    <p>&copy; 2016 Bush CakesFree Valet. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a> Images by: <a href="http://unsplash.com" target="_blank">Unsplash</a></p>-->
+                </div>
+            </div>
 
         </div>
         <!-- END row -->
