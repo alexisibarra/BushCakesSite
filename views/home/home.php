@@ -1,4 +1,5 @@
 <? require_once "./views/layout/header.php" ?>
+<? require_once "./views/layout/menu.php" ?>
 
 <div id="fh5co-main" style="padding-top: 50px">
     <? require_once "./views/home/hero.php" ?>
