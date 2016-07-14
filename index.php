@@ -37,10 +37,16 @@ $app->get('/', function ($request, $response, $args) {
     return $response;
 });
 
-$app->get('/hello[/{name}]', function ($request, $response, $args) {
-    $response->write("Hello, " . $args['name']);
+$app->get('/{section}', function ($request, $response, $args) {
+    $response = $this->view->render($response, "index.phtml", ['section' => $args['section']]);
+
     return $response;
-})->setArgument('name', 'World!');
+});
+//
+//$app->get('/hello[/{name}]', function ($request, $response, $args) {
+//    $response->write("Hello, " . $args['name']);
+//    return $response;
+//})->setArgument('name', 'World!');
 
 /**
  * Step 4: Run the Slim application

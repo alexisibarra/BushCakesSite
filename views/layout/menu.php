@@ -1,25 +1,27 @@
 
 <div id="fh5co-menuwrap" role="navigation" class="sticker text-center visible-sm visible-md visible-lg">
     <div class="container">
-        <img class="push-left" src="./assets/img/logo195x30.png" alt="" style="padding-top: 8px">
+        <a href="/" style="border: none;">
+            <img class="push-left" src="./assets/img/logo195x30.png" alt="" style="padding-top: 8px">
+        </a>
         <ul class="pull-right sf-menu" id="fh5co-primary-menu">
             <li>
-                <a href="#">Tienda Online</a>
+                <a href="/tienda">Tienda Online</a>
             </li>
             <li>
-                <a href="#">Productos</a>
+                <a href="/productos">Productos</a>
             </li>
             <li>
-                <a href="#">Pasteleria Creativa</a>
+                <a href="/creativa">Pasteleria Creativa</a>
             </li>
             <li>
-                <a href="#">Talleres</a>
+                <a href="/talleres">Talleres</a>
             </li>
             <li>
-                <a href="#">Nosotros</a>
+                <a href="/nosotros">Nosotros</a>
             </li>
             <li>
-                <a href="./contact.php">Contacto</a>
+                <a href="/contacto">Contacto</a>
             </li>
         </ul>
     </div>
