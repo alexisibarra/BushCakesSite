@@ -398,10 +398,10 @@
 			// s.html("Distance from top:" + pos.top + "<br />Scroll position: " + windowpos);
 			if (windowpos >= pos.top) {
 				s.addClass("stick");
-				$("#fh5co-main").addClass("margin-top-30");
+				$("#fh5co-main").addClass("margin-top-60");
 			} else {
 				s.removeClass("stick");
-				$("#fh5co-main").removeClass("margin-top-30");
+				$("#fh5co-main").removeClass("margin-top-60");
 			}
 		});
 	};
