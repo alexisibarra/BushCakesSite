@@ -33,7 +33,7 @@ $container = $app->getContainer();
 $container['view'] = new \Slim\Views\PhpRenderer("./views/");
 
 $app->get('/', function ($request, $response, $args) {
-    $response = $this->view->render($response, "index.phtml");
+    $response = $this->view->render($response, "index.phtml", ['section' => 'home']);
     return $response;
 });
 
