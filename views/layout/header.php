@@ -2,7 +2,7 @@
 
 
     <div id="fh5co-hero">
-        <a href="#fh5co-menuwrap" class="smoothscroll fh5co-arrow to-animate hero-animate-4"><i class="ti-angle-down"></i></a>
+        <a href="#menu-container" class="smoothscroll fh5co-arrow to-animate hero-animate-4"><i class="ti-angle-down"></i></a>
         <div class="container">
             <div class="col-md-12">
                 <div class="fh5co-hero-wrap">

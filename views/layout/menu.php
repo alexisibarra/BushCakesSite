@@ -1,4 +1,4 @@
-<div class="fluid-container menu-container">
+<div id="menu-container" class="fluid-container menu-container">
 
     <div class="container">
         <h1 id="fh5co-logo" class="pull-left">

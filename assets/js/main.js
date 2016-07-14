@@ -391,7 +391,7 @@
 	};
 
 	var sticky = function() {
-		var s = $(".menu-container");
+		var s = $("#menu-container");
 		var pos = s.position();
 		$(window).scroll(function() {
 			var windowpos = $(window).scrollTop();
