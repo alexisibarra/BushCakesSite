@@ -311,7 +311,7 @@ textarea {
   margin-right: -20px;
 }
 #fh5co-menu-wrap .sf-menu a {
-  padding: 4em 1em;
+  padding: 2em 1em;
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
@@ -370,7 +370,8 @@ textarea {
 
 #fh5co-primary-menu .fh5co-sub-menu {
   padding: 7px 0 3px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(248, 105, 66, 0.8);
+  //background: rgba(0, 0, 0, 0.8);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -394,7 +395,7 @@ textarea {
   height: 0;
   border-right: 8px solid transparent;
   border-bottom: 8px solid #57cecd;
-  border-bottom: 8px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 8px solid rgba(248, 105, 66, 0.8);
   border-left: 8px solid transparent;
   content: '';
 }
