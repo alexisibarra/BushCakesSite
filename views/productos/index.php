@@ -27,14 +27,14 @@
 
             <div class="col-md-4 col-md-pull-8 left-sidebar" id="fh5co-sidebar">
                 <div class="sidebar-box animate-box">
-                    <h3 class="sidebar-heading"><span class="border"></span>Free Templates</h3>
+                    <h3 class="sidebar-heading"><span class="border"></span>Nuestros productos</h3>
                     <ul class="sidebar-links">
-                        <li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
-                        <li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
-                        <li><a href="http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap" target="_blank">Light</a></li>
-                        <li><a href="http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap" target="_blank">Relic</a></li>
-                        <li><a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>
-                        <li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
+                        <li><a href="/productos">Bebidas calientes</a></li>
+                        <li><a href="/productos">Bebidas frias</a></li>
+                        <li><a href="/productos">Miel</a></li>
+                        <li><a href="/productos">Pasteleria fina</a></li>
+                        <li><a href="/productos">Te a granel</a></li>
+                        <li><a href="/productos">Tradicionales</a></li>
                     </ul>
                 </div>
                 <div class="sidebar-box animate-box">
