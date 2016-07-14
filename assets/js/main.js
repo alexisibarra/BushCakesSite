@@ -391,7 +391,7 @@
 	};
 
 	var sticky = function() {
-		var s = $("#fh5co-menuwrap");
+		var s = $(".menu-container");
 		var pos = s.position();
 		$(window).scroll(function() {
 			var windowpos = $(window).scrollTop();
