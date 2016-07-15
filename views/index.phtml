@@ -55,13 +55,17 @@
 	</head>
 	<body>
 	<?
+		$productos = new Products();
+
 		if ($data['subsection']){
 			if(strcmp($data["section"], "productos") == 0){
-				$productos = new Products();
 				$producto = $productos->getProduct($data["subsection"]);
 			}
 			require './views/' . $data['section'] . '/detalle.php';
 		} else {
+			if(strcmp($data["section"], "productos") == 0) {
+				$productos = $productos->getProducts();
+			}
 			require './views/' . $data['section'] . '/index.php';
 		}
 	?>
