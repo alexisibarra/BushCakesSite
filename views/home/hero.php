@@ -1,7 +1,7 @@
 <div class="container" style="margin-bottom: 50px">
     <div class="row">
         <div class="col-sm-8" style="padding-right: 5px">
-            <div class="owl-carousel owl-carousel-fullwidth animate-box">
+            <div class="owl-carousel animate-box">
                 <? for ($i = 1; $i <= 10; $i++){?>
                     <div class="item">
                         <a href="http://lorempixel.com/630/480" class="image-popup">
