@@ -7,33 +7,41 @@
 
             <div class="col-md-8 col-md-push-4" id="fh5co-content">
                 <div class="content-box animate-box">
-                    <h2>We Love Doing Free Stuffs</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor quas inventore hic delectus, temporibus vel voluptate nemo, repellat eaque nostrum ducimus numquam repudiandae nam. Quibusdam quaerat aspernatur commodi accusantium obcaecati pariatur vel eos quas vero quae rerum nemo nihil non laborum labore magni numquam adipisci voluptatum, voluptates soluta. Vel!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur optio iusto officiis culpa expedita rem nisi repudiandae quas, eveniet, neque nihil pariatur! Doloribus, sunt? Maiores ipsum temporibus consectetur voluptas, placeat perspiciatis officia, distinctio repellat earum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor quas inventore hic delectus, temporibus vel voluptate nemo, repellat eaque nostrum ducimus numquam repudiandae nam. Quibusdam quaerat aspernatur commodi accusantium obcaecati pariatur vel eos quas vero quae rerum nemo nihil non laborum labore magni numquam adipisci voluptatum, voluptates soluta. Vel!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur optio iusto officiis culpa expedita rem nisi repudiandae quas, eveniet, neque nihil pariatur! Doloribus, sunt? Maiores ipsum temporibus consectetur voluptas, placeat perspiciatis officia, distinctio repellat earum.</p>
+                    <h2>Nuestros productos</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor quas inventore hic
+                        delectus, temporibus vel voluptate nemo, repellat eaque nostrum ducimus numquam repudiandae nam.
+                        Quibusdam quaerat aspernatur commodi accusantium obcaecati pariatur vel eos quas vero quae rerum
+                        nemo nihil non laborum labore magni numquam adipisci voluptatum, voluptates soluta. Vel!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur optio iusto officiis culpa
+                        expedita rem nisi repudiandae quas, eveniet, neque nihil pariatur! Doloribus, sunt? Maiores
+                        ipsum temporibus consectetur voluptas, placeat perspiciatis officia, distinctio repellat earum.
+                    </p>
 
                 </div>
-                <div class="content-box animate-box">
-                    <h2>About This Template</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor quas inventore hic delectus, temporibus vel voluptate nemo, repellat eaque nostrum ducimus numquam repudiandae nam. Quibusdam quaerat aspernatur commodi accusantium obcaecati pariatur vel eos quas vero quae rerum nemo nihil non laborum labore magni numquam adipisci voluptatum, voluptates soluta. Vel!</p>
-                    <p><img src="images/img_large_1.jpg" alt="Free HTML5 Template" class="img-responsive"></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur optio iusto officiis culpa expedita rem nisi repudiandae quas, eveniet, neque nihil pariatur! Doloribus, sunt? Maiores ipsum temporibus consectetur voluptas, placeat perspiciatis officia, distinctio repellat earum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor quas inventore hic delectus, temporibus vel voluptate nemo, repellat eaque nostrum ducimus numquam repudiandae nam. Quibusdam quaerat aspernatur commodi accusantium obcaecati pariatur vel eos quas vero quae rerum nemo nihil non laborum labore magni numquam adipisci voluptatum, voluptates soluta. Vel!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur optio iusto officiis culpa expedita rem nisi repudiandae quas, eveniet, neque nihil pariatur! Doloribus, sunt? Maiores ipsum temporibus consectetur voluptas, placeat perspiciatis officia, distinctio repellat earum.</p>
 
+<!--                <div class="fh5co-spacer fh5co-spacer-md"></div>-->
+
+                <div class="row fh5co-cards" id="fh5co-works" style="background-color: transparent">
+                    <?foreach ($menuItems->getSubitems("productos") as $item) {?>
+                        <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-work-item work-box">
+                            <div class="fh5co-card" href="#">
+                                <img src="http://lorempixel.com/445/320" alt="Free HTML5 Bootstrap template" class="img-responsive">
+                                <div class="fh5co-card-body">
+                                    <h3><? echo $item->tag?></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
+                                    <a href="<? echo $item->link?>" class="link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    <?}?>
                 </div>
+
             </div>
 
             <div class="col-md-4 col-md-pull-8 left-sidebar" id="fh5co-sidebar">
-                <div class="sidebar-box animate-box">
-                    <h3 class="sidebar-heading"><span class="border"></span>Nuestros productos</h3>
-                    <ul class="sidebar-links">
-                        <?php
-                            $menuItems->printSubitems("productos");
-                        ?>
-                    </ul>
-                </div>
                 <div class="sidebar-box animate-box">
                     <h3 class="sidebar-heading"><span class="border"></span>Pargraph</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, aperiam placeat deserunt ullam magnam repudiandae reprehenderit animi aliquid odio ratione.</p>
