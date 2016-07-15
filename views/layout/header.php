@@ -11,14 +11,7 @@
                         <h1 class="to-animate hero-animate-1">Pastelería, café y té para alegrar emociones</h1>
 <!--                        <h2 class="to-animate hero-animate-2">Created by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a></h2>-->
 
-                        <ul class="to-animate hero-animate-2 fh5co-social-icons" style="padding-bottom: 25px;">
-
-                            <li><a href="#"><i class="ti-google"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-instagram"></i></a></li>
-                            <li><a href="#"><i class="ti-dribbble"></i></a></li>
-                        </ul>
+                        <? 		require './views/layout/socialnetworks.php'; ?>
 
                     </div>
                 </div>
