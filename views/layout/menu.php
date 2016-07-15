@@ -2,8 +2,8 @@
 
     <div class="container">
         <h1 id="fh5co-logo" class="pull-left">
-            <a href="index.php">
-                <img src="./assets/img/logo195x30.png" alt="">
+            <a href="/">
+                <img src="/assets/img/logo195x30.png" alt="">
             </a>
         </h1>
 
