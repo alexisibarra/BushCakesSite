@@ -4,44 +4,34 @@
 
     <div class="container">
         <div class="row">
-
             <div class="col-md-8 col-md-push-4" id="fh5co-content">
                 <div class="content-box animate-box">
-                    <h2>We Love Doing Free Stuffs</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor quas inventore hic delectus, temporibus vel voluptate nemo, repellat eaque nostrum ducimus numquam repudiandae nam. Quibusdam quaerat aspernatur commodi accusantium obcaecati pariatur vel eos quas vero quae rerum nemo nihil non laborum labore magni numquam adipisci voluptatum, voluptates soluta. Vel!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur optio iusto officiis culpa expedita rem nisi repudiandae quas, eveniet, neque nihil pariatur! Doloribus, sunt? Maiores ipsum temporibus consectetur voluptas, placeat perspiciatis officia, distinctio repellat earum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor quas inventore hic delectus, temporibus vel voluptate nemo, repellat eaque nostrum ducimus numquam repudiandae nam. Quibusdam quaerat aspernatur commodi accusantium obcaecati pariatur vel eos quas vero quae rerum nemo nihil non laborum labore magni numquam adipisci voluptatum, voluptates soluta. Vel!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur optio iusto officiis culpa expedita rem nisi repudiandae quas, eveniet, neque nihil pariatur! Doloribus, sunt? Maiores ipsum temporibus consectetur voluptas, placeat perspiciatis officia, distinctio repellat earum.</p>
+                    <h2><? echo $producto->name ?></h2>
+                    <p class="fh5co-category" style="font-size: 14px">
+                        <? echo $producto->description ?>
+                    </p>
 
-                </div>
-                <div class="content-box animate-box">
-                    <h2>About This Template</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor quas inventore hic delectus, temporibus vel voluptate nemo, repellat eaque nostrum ducimus numquam repudiandae nam. Quibusdam quaerat aspernatur commodi accusantium obcaecati pariatur vel eos quas vero quae rerum nemo nihil non laborum labore magni numquam adipisci voluptatum, voluptates soluta. Vel!</p>
-                    <p><img src="images/img_large_1.jpg" alt="Free HTML5 Template" class="img-responsive"></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur optio iusto officiis culpa expedita rem nisi repudiandae quas, eveniet, neque nihil pariatur! Doloribus, sunt? Maiores ipsum temporibus consectetur voluptas, placeat perspiciatis officia, distinctio repellat earum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor quas inventore hic delectus, temporibus vel voluptate nemo, repellat eaque nostrum ducimus numquam repudiandae nam. Quibusdam quaerat aspernatur commodi accusantium obcaecati pariatur vel eos quas vero quae rerum nemo nihil non laborum labore magni numquam adipisci voluptatum, voluptates soluta. Vel!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur optio iusto officiis culpa expedita rem nisi repudiandae quas, eveniet, neque nihil pariatur! Doloribus, sunt? Maiores ipsum temporibus consectetur voluptas, placeat perspiciatis officia, distinctio repellat earum.</p>
+                    <div class="owl-carousel animate-box">
+                        <? foreach ($producto->images as $image) {?>
+                            <div class="item">
+                                <a href="<? echo $image?>" class="image-popup">
+                                    <img src="<? echo $image?>" alt="image">
+                                </a>
+                            </div>
+                        <? } ?>
+                    </div>
 
-                </div>
-            </div>
+                    <div class="fh5co-spacer fh5co-spacer-md"></div>
 
-            <div class="col-md-4 col-md-pull-8 left-sidebar" id="fh5co-sidebar">
-                <div class="sidebar-box animate-box">
-                    <h3 class="sidebar-heading"><span class="border"></span>Nuestros productos</h3>
-                    <ul class="sidebar-links">
-                        <?php $menuItems->printSubitems("productos");?>
-                    </ul>
-                </div>
-                <div class="sidebar-box animate-box">
-                    <h3 class="sidebar-heading"><span class="border"></span>Pargraph</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, aperiam placeat deserunt ullam magnam repudiandae reprehenderit animi aliquid odio ratione.</p>
-                    <p><a href="#" class="btn btn-outline btn-sm">Button</a></p>
+                    <div class="animate-box">
+                        <? echo $producto->info ?>
+                    </div>
                 </div>
             </div>
 
+            <? require './views/productos/sidebar.php'; ?>
         </div>
     </div>
-
 
 </div>
 
