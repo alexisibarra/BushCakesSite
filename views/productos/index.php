@@ -25,14 +25,14 @@
 <!--                <div class="fh5co-spacer fh5co-spacer-md"></div>-->
 
                 <div class="row fh5co-cards" id="fh5co-works" style="background-color: transparent">
-                    <?foreach ($menuItems->getSubitems("productos") as $item) {?>
+                    <?foreach ($productos as $item) {?>
                         <div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-work-item work-box">
                             <div class="fh5co-card" href="#">
-                                <img src="http://lorempixel.com/445/320" alt="Free HTML5 Bootstrap template" class="img-responsive">
+                                <img src="<? echo $item->images[0] ?>" alt="Free HTML5 Bootstrap template" class="img-responsive">
                                 <div class="fh5co-card-body">
-                                    <h3><? echo $item->tag?></h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt porro delectus cum officia magnam.</p>
-                                    <a href="<? echo $item->link?>" class="link">Read more</a>
+                                    <h3><? echo $item->name ?></h3>
+                                    <p style="font-size: 0.8em"><? echo $item->description ?></p>
+                                    <a href="<? echo $item->link?>" class="link">Ve más</a>
                                 </div>
                             </div>
                         </div>
