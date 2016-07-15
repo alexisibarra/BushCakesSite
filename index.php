@@ -42,6 +42,12 @@ $app->get('/{section}', function ($request, $response, $args) {
 
     return $response;
 });
+
+$app->get('/{section}/{subsection}', function ($request, $response, $args) {
+    $response = $this->view->render($response, "index.phtml", ['section' => $args['section'], 'subsection' => $args['subsection']]);
+
+    return $response;
+});
 //
 //$app->get('/hello[/{name}]', function ($request, $response, $args) {
 //    $response->write("Hello, " . $args['name']);
