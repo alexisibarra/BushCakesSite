@@ -7,24 +7,9 @@
             <div class="col-md-push-2 col-md-4 col-sm-6 footer-box">
                 <h3 class="fh5co-footer-heading">Bush cakes</h3>
                 <ul class="fh5co-footer-links">
-                    <li>
-                        <a href="/tienda">Tienda Online</a>
-                    </li>
-                    <li>
-                        <a href="/productos">Productos</a>
-                    </li>
-                    <li>
-                        <a href="/creativa">Pasteleria Creativa</a>
-                    </li>
-                    <li>
-                        <a href="/talleres">Talleres</a>
-                    </li>
-                    <li>
-                        <a href="/nosotros">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="/contacto">Contacto</a>
-                    </li>
+                    <?php
+                        $menuItems->printItems(false);
+                    ?>
                 </ul>
 
             </div>

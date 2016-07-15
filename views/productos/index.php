@@ -29,12 +29,9 @@
                 <div class="sidebar-box animate-box">
                     <h3 class="sidebar-heading"><span class="border"></span>Nuestros productos</h3>
                     <ul class="sidebar-links">
-                        <li><a href="/productos">Bebidas calientes</a></li>
-                        <li><a href="/productos">Bebidas frias</a></li>
-                        <li><a href="/productos">Miel</a></li>
-                        <li><a href="/productos">Pasteleria fina</a></li>
-                        <li><a href="/productos">Te a granel</a></li>
-                        <li><a href="/productos">Tradicionales</a></li>
+                        <?php
+                            $menuItems->printSubitems("productos");
+                        ?>
                     </ul>
                 </div>
                 <div class="sidebar-box animate-box">

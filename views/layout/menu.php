@@ -9,7 +9,11 @@
 
         <nav id="fh5co-menu-wrap" role="navigation" class=" visible-sm visible-md visible-lg">
             <ul class="sf-menu" id="fh5co-primary-menu">
-                <?php require_once "./views/helpers/menu_items.php" ?>
+                <?php
+                    require_once "./views/helpers/menu_items.php";
+                    $menuItems = new MenuItems();
+                    $menuItems->printItems(true);
+                ?>
             </ul>
         </nav>
     </div>
