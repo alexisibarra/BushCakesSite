@@ -55,7 +55,15 @@
 	</head>
 	<body>
 	<?
-		require './views/' . $data['section'] . '/index.php';
+		if ($data['subsection']){
+			if(strcmp($data["section"], "productos") == 0){
+				$productos = new Products();
+				$producto = $productos->getProduct($data["subsection"]);
+			}
+			require './views/' . $data['section'] . '/detalle.php';
+		} else {
+			require './views/' . $data['section'] . '/index.php';
+		}
 	?>
 
 		<!-- jQuery -->
