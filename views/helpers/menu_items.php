@@ -90,4 +90,7 @@
                 echo '<li><a href="' . $item->link . '">' . $item->tag . '</a></li>';
             }
         }
+        function getSubitems($item){
+            return $this->items[$item]->subitems;
+        }
     }
