@@ -5,6 +5,7 @@ class Product{
     var $description;
     var $info;
     var $images;
+    var $link;
 
     function Product($name, $description, $info, $images){
         $this->id = join("-",  explode(" ", strtolower($this->limpiar_caracteres_especiales($name))));
@@ -12,6 +13,7 @@ class Product{
         $this->description = $description;
         $this->info = $info;
         $this->images = $images;
+        $this->link = "/productos/" . $this->id;
     }
 
     function limpiar_caracteres_especiales($s) {
@@ -49,6 +51,9 @@ class Products{
             );
     }
 
+    function getProducts(){
+        return $this->products;
+    }
     function getProduct($id){
         return $this->products[$id];
     }
