@@ -27,4 +27,10 @@
             </div>
         </form>
     </div>
+
+    <div class="sidebar-box animate-box">
+        <h3 class="sidebar-heading"><span class="border"></span>Nuestro Menu</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, aperiam placeat deserunt ullam magnam repudiandae reprehenderit animi aliquid odio ratione.</p>
+        <p><a href="#" class="btn btn-outline btn-sm">Descargalo</a></p>
+    </div>
 </div>

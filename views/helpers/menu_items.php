@@ -63,28 +63,45 @@
             $this->items = array(
                 $tienda_online->id => $tienda_online,
                 $productos->id => $productos,
-                $pasteleria_creativa->id => $pasteleria_creativa,
                 $talleres->id => $talleres,
+                $pasteleria_creativa->id => $pasteleria_creativa,
                 $nosotros->id => $nosotros,
                 $contacto->id => $contacto,
             );
         }
 
         function printItems($subitems){
+            $totalItems = count($this->items)/2;
+            $index = 0;
             foreach ($this->items as $item) {
-                echo '<li><a href="' . $item->link . '">' . $item->tag . '</a>';
-
-                if ($item->subitems && $subitems){
-                    echo '<ul class="fh5co-sub-menu">';
-                    foreach ($item->subitems as $subitem) {
-                        echo '<li><a href="' . $subitem->link . '">' . $subitem->tag . '</a></li>';
-                    }
-                    echo '</ul>';
+                if($index++ == $totalItems){
+                    $this->printLogo();
                 }
-
-                echo '</li>';
+                $this->printItem($item, $subitems);
             }
         }
+        function printLogo(){
+            echo '
+            <h1 id="fh5co-logo" class="pull-left" style="margin: 0">
+                <a href="/" style="padding: 20px">
+                    <img src="/assets/img/logo195x30.png" alt="">
+                </a>
+            </h1>';
+        }
+        function printItem($item, $subitems){
+            echo '<li><a href="' . $item->link . '">' . $item->tag . '</a>';
+
+            if ($item->subitems && $subitems){
+                echo '<ul class="fh5co-sub-menu">';
+                foreach ($item->subitems as $subitem) {
+                    echo '<li><a href="' . $subitem->link . '">' . $subitem->tag . '</a></li>';
+                }
+                echo '</ul>';
+            }
+
+            echo '</li>';
+        }
+
         function printSubitems($item){
             foreach ($this->items[$item]->subitems as $item) {
                 echo '<li><a href="' . $item->link . '">' . $item->tag . '</a></li>';
