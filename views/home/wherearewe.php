@@ -24,7 +24,7 @@
                                 </div>
                                 <div class="row animate-box">
                                     <? for ($i = 1; $i <= 3; $i++){?>
-                                        <div class="col-md-4">
+                                        <div class="col-xs-4">
                                             <a href="http://lorempixel.com/630/480" class="image-popup">
                                                 <img src="http://lorempixel.com/160/120" class="img-responsive" alt="image">
                                             </a>
@@ -49,7 +49,7 @@
                                 <div class="row animate-box">
 
                                     <? for ($j = 1; $j <= 3; $j++){?>
-                                        <div class="col-md-4">
+                                        <div class="col-xs-4">
                                             <a href="http://lorempixel.com/630/480" class="image-popup">
                                                 <img src="http://lorempixel.com/160/120" class="img-responsive" alt="image">
                                             </a>
@@ -73,7 +73,7 @@
                                 <div class="row animate-box">
 
                                     <? for ($k = 1; $k <= 3; $k++){?>
-                                        <div class="col-md-4">
+                                        <div class="col-xs-4">
                                             <a href="http://lorempixel.com/630/480" class="image-popup">
                                                 <img src="http://lorempixel.com/160/120" class="img-responsive" alt="image">
                                             </a>
