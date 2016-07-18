@@ -2002,6 +2002,13 @@ a > img.fh5co-align-center {
     padding-left: 0px; } }
 @media screen and (max-width: 767px) {
   .fh5co-cards .fh5co-card-small .card-body .news-body {
-    font-size: 0.7em; } }
+    font-size: 0.7em; }
+
+  #fh5co-sidebar {
+    padding: 0em 0; }
+
+  #fh5co-content {
+    padding-bottom: 0;
+    margin-bottom: 1em; } }
 
 /*# sourceMappingURL=main.css.map */
